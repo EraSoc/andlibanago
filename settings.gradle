@@ -1,0 +1,3 @@
+include ':bwigomdlib'
+include ':app'
+rootProject.name = "BwigoLibAnd"

@@ -1,0 +1,222 @@
+[{
+		"id": 1,
+		"discount": "Descuento del 15% en ipgones",
+		"store": "Aple MX",
+		"category": "Electronicos",
+		"discount_short": "Descuento del 15%",
+		"conditions": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+		"sucursales": [
+		    {
+				"address": "2205 Patterson Road Bronx, NY 10461",
+				"lat": 19.437915,
+				"lng": -99.222424
+			},
+			{
+				"address": "3584 Stadium Drive Boston, MA 02110",
+				"lat": 19.440991,
+				"lng": -99.212339
+			},
+			{
+                "address": "2205 Patterson Road Bronx, NY 10461",
+            	"lat": 19.437915,
+            	"lng": -99.222424
+            },
+            {
+            	"address": "3584 Stadium Drive Boston, MA 02110",
+            	"lat": 19.440991,
+            	"lng": -99.212339
+            },
+            {
+                "address": "2205 Patterson Road Bronx, NY 10461",
+                "lat": 19.437915,
+                "lng": -99.222424
+            },
+            {
+                "address": "3584 Stadium Drive Boston, MA 02110",
+                "lat": 19.440991,
+                "lng": -99.212339
+            },
+            {
+                "address": "2205 Patterson Road Bronx, NY 10461",
+                "lat": 19.437915,
+                "lng": -99.222424
+            },
+            {
+                "address": "3584 Stadium Drive Boston, MA 02110",
+                "lat": 19.440991,
+                "lng": -99.212339
+            }
+		]
+	},
+	{
+		"id": 2,
+		"discount": "Descuento del 10% en toda la comida",
+		"store": "Moralitos",
+		"category": "Comimda",
+		"discount_short": "Descuento del 15%",
+		"conditions": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+		"sucursales": [{
+				"address": "la direecion 1 va qui",
+				"lat": 19.635381,
+				"lng": -99.335164
+			},
+			{
+				"address": "la direecion 2 va qui",
+				"lat": 19.635381,
+				"lng": -99.335164
+			}
+		]
+	},
+	{
+		"id": 3,
+		"discount": "Descuento del 1% en todas las pastillas",
+		"store": "Genericos Almazan",
+		"category": "Salud y bienestar",
+		"discount_short": "Descuento del 15%",
+		"conditions": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+		"sucursales": [{
+				"address": "la direecion 1 va qui",
+				"lat": 19.635381,
+				"lng": -99.335164
+			},
+			{
+				"address": "la direecion 2 va qui",
+				"lat": 19.635381,
+				"lng": -99.335164
+			}
+		]
+	},
+	{
+		"id": 4,
+		"discount": "Descuento del 11% en toda lo que te relaje",
+		"store": "El buen pastor",
+		"category": "Salud y bienestar",
+		"discount_short": "Descuento del 15%",
+		"conditions": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+		"sucursales": [{
+				"address": "la direecion 1 va qui",
+				"lat": 19.635381,
+				"lng": -99.335164
+			},
+			{
+				"address": "la direecion 2 va qui",
+				"lat": 19.635381,
+				"lng": -99.335164
+			}
+		]
+	},
+	{
+		"id": 5,
+		"discount": "Descuento del 65% de descuento",
+		"store": "Yo reparo",
+		"category": "Electronica",
+		"discount_short": "Descuento del 15%",
+		"conditions": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+		"sucursales": [{
+				"address": "la direecion 1 va qui",
+				"lat": 19.635381,
+				"lng": -99.335164
+			},
+			{
+				"address": "la direecion 2 va qui",
+				"lat": 19.635381,
+				"lng": -99.335164
+			}
+		]
+	},
+	{
+		"id": 6,
+		"discount": "Descuento del 33% descuentazo",
+		"store": "iVoy",
+		"category": "Logistica",
+		"discount_short": "Descuento del 15%",
+		"conditions": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+		"sucursales": [{
+				"address": "la direecion 1 va qui",
+				"lat": 19.635381,
+				"lng": -99.335164
+			},
+			{
+				"address": "la direecion 2 va qui",
+				"lat": 19.635381,
+				"lng": -99.335164
+			}
+		]
+	},
+	{
+		"id": 7,
+		"discount": "Descuento del 9% un 9 mas",
+		"store": "Segundon",
+		"category": "Bisness",
+		"discount_short": "Descuento del 15% en las marcancias",
+		"conditions": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+		"sucursales": [{
+				"address": "la direecion 1 va qui",
+				"lat": 19.635381,
+				"lng": -99.335164
+			},
+			{
+				"address": "la direecion 2 va qui",
+				"lat": 19.635381,
+				"lng": -99.335164
+			}
+		]
+	},
+	{
+		"id": 8,
+		"discount": "Descuento del 45% en mercancia selected",
+		"store": "Hell",
+		"category": "Electronicos",
+		"discount_short": "Descuento del 15% lorem imsur",
+		"conditions": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+		"sucursales": [{
+				"address": "la direecion 1 va qui",
+				"lat": 19.635381,
+				"lng": -99.335164
+			},
+			{
+				"address": "la direecion 2 va qui",
+				"lat": 19.635381,
+				"lng": -99.335164
+			}
+		]
+	},
+	{
+		"id": 9,
+		"discount": "Descuento del 5% en productos seleccionados",
+		"store": "Apple MX",
+		"category": "Electronicos",
+		"discount_short": "Descuento del 15% printing and typesetting industry",
+		"conditions": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+		"sucursales": [{
+				"address": "la direecion 1 va qui",
+				"lat": 19.635381,
+				"lng": -99.335164
+			},
+			{
+				"address": "la direecion 2 va qui",
+				"lat": 19.635381,
+				"lng": -99.335164
+			}
+		]
+	},
+	{
+		"id": 10,
+		"discount": "Descuento del 15% en los productos marcados",
+		"store": "Apple MX",
+		"category": "Electronicos",
+		"discount_short": "Descuento del 15%",
+		"conditions": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+		"sucursales": [{
+				"address": "la direecion 1 va qui",
+				"lat": 19.635381,
+				"lng": -99.335164
+			},
+			{
+				"address": "la direecion 2 va qui",
+				"lat": 19.635381,
+				"lng": -99.335164
+			}
+		]
+	}
+]

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditProfileActivity">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_edit_profile"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- EditText nombre -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/editText_margin">
+
+                <EditText
+                    android:id="@+id/et_edit_profile_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nombre"
+                     />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- EditText ape paterno -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/editText_margin">
+
+                <EditText
+                    android:id="@+id/et_edit_profile_pat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Apellido paterno"
+                     />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- EditText ape materno -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/editText_margin">
+
+                <EditText
+                    android:id="@+id/et_edit_profile_mat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Apellido materno"
+                     />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- EditText fecha de nacimiento -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/editText_margin">
+
+                <EditText
+                    android:id="@+id/et_edit_profile_birthday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:editable="false"
+                    android:hint="Fecha de nacimiento"
+                     />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- EditText correo alternativo -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/editText_margin">
+
+                <EditText
+                    android:id="@+id/et_edit_profile_alternative_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Correo alternativo"
+                     />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- EditText teléfono fíjo -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/editText_margin">
+
+                <EditText
+                    android:id="@+id/et_edit_profile_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Teléfono fijo"
+                     />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- EditText celular -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/editText_margin">
+
+                <EditText
+                    android:id="@+id/et_edit_profile_mobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Celular"
+                     />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- EditText direccion -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/editText_margin">
+
+                <EditText
+                    android:id="@+id/et_edit_profile_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Dirección"
+                     />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- EditText acerca de mi -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/editText_margin">
+
+                <EditText
+                    android:id="@+id/et_edit_profile_about_my"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Acerca de Mi"
+                     />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- EditText ciudad de origen -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/editText_margin">
+
+                <EditText
+                    android:id="@+id/et_edit_profile_origin_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Ciudad de origen"
+                     />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- EditText situacion sentimental -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/editText_margin">
+
+                <EditText
+                    android:id="@+id/et_edit_profile_espiritual_sesion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Situación sentimental"
+                     />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- EditText religion -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/editText_margin">
+
+                <EditText
+                    android:id="@+id/et_edit_profile_religion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Religión"
+                     />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- EditText political -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/editText_margin">
+
+                <EditText
+                    android:id="@+id/et_edit_profile_political"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Afilación politica"
+                     />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- EditText trabajo actual -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/editText_margin">
+
+                <EditText
+                    android:id="@+id/et_edit_profile_work"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Trabajo actual"
+                     />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Formulario -->
+
+
+
+</LinearLayout>

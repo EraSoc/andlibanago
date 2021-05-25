@@ -1,0 +1,215 @@
+<resources>
+    <string name="app_name">BWIGO Mobile</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_email">Correo / número de afiliado</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_forgot_password">Olvidé mi contraseña</string>
+    <string name="login_do_login">Entrar</string>
+    <string name="login_check_in">Registrate</string>
+    <string name="login_login_facebook">Ingresar con Facebook</string>
+    <string name="terminos_y_condiciones">Al ingresar sesión estas aceptando</string>
+    <string name="terminos_condiciones_link">Términos y condiciones</string>
+    <string name="check_email">Correo electronico</string>
+    <string name="check_password">Contraseña</string>
+    <string name="check_password_confirm">Verificar contraseña</string>
+    <string name="check_do_checkin">Registrar</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- strings terminos y condicones -->
+    <string name="html">
+        <![CDATA[
+        <h1> Aviso de Privacidad para Clientes “BWIGO”. </h1>
+        <h2> Responsable” del tratamiento de sus datos personales. </h2>
+        <p>
+            <strong>LINK 2 LOYALTY, S.A DE C.V.</strong>, es la persona moral, que de acuerdo con la Ley Federal
+            de Protección de Datos Personales en Posesión de los Particulares, (LFPDPPP) se
+            entiende como (<b>“Responsable”</b>) ya que decide sobre el tratamiento de los datos
+            personales que recaba de usted. Para el <b>“Responsable”</b>, el tratar sus datos de manera
+            legítima resulta un tema prioritario. Este Aviso de Privacidad complementa cualesquiera
+            otros Avisos de Privacidad simplificados o cortos que el “Responsable” haya puesto a su
+            disposición por ser el titular de sus datos personales y resulta supletorio en todo aquello
+            que expresamente no refieran tales Avisos.
+        </p>
+        <h3> <b>Domicilio del “Responsable”:</b> </h3>
+        <p>
+            Av. De Las Fuentes, N° 33, Piso 1, Lomas de Tecamachalco, Municipio Naucalpan de
+            Juárez, Estado de México, C.P. 53950. Dicho domicilio es el establecido por el
+            “Responsable” para oír y recibir notificaciones.
+        </p>
+        <h3>
+            <b>
+                1. Finalidades del tratamiento de los datos personales de los CLIENTES del
+                “Responsable”.
+             </b>
+        </h3>
+        <p> El “Responsable” en este acto recaba sus datos para las siguientes <b>finalidades:</b> </p>
+        <p>
+            <b> A) </b> Prestarle los servicios a través de la Tarjeta de Descuentos “BWIGO”, la cual se
+            encuentra afiliada a muchos establecimientos en los cuales se podrá ofrecer números
+            productos, servicios y a su vez poder participar en promociones.
+        </p>
+        <p>
+            <b> B) </b> Dar cumplimiento a las obligaciones contraídas con usted de acuerdo a los servicios
+            que se le presten, así como informarle cualquier situación o cambio sobre dichos
+            servicios.
+        </p>
+        <p>
+            <b> C) </b> Evaluar la calidad de los servicios que presta el “Responsable” y llevar a cabo
+            encuestas de satisfacción de clientes.
+        </p>
+        <h3>
+            <b>
+                2. Datos personales que recaba el “Responsable” de sus clientes.
+             </b>
+        </h3>
+        <p>
+            Para llevar a cabo las finalidades descritas en el presente Aviso de Privacidad el
+            "Responsable” utilizará datos personales de identificación, como: Nombre completo,
+            teléfono fijo, teléfono celular, correo electrónico, numero de tarjeta de crédito, fecha de
+            nacimiento y número de membresía.
+        </p>
+        <h3>
+            <b>
+                3. Datos personales sensibles.
+             </b>
+        </h3>
+        <p>
+            El “Responsable” le informa que para cumplir con las finalidades previstas en este Aviso
+            de Privacidad, no requiere recabar de usted datos personales sensibles.
+        </p>
+        <h3>
+            <b>
+                4. Medios para ejercer los Derechos de Acceso, Rectificación, Cancelación y
+                Oposición (Derechos ARCO).
+             </b>
+        </h3>
+        <p>
+            Usted tiene el derecho de acceder a sus datos personales que posea el “Responsable” y
+            a los detalles del tratamiento de los mismos, así como a rectificarlos en caso de ser
+            inexactos o incompletos; cancelarlos cuando considere que no se requieren para alguna
+            de las finalidades señaladas en el presente Aviso de Privacidad, estén siendo utilizados
+            para finalidades no consentidas o bien oponerse al tratamiento de los mismos para fines
+            específicos.
+        </p>
+        <p>
+            El “Responsable”, le brindará toda la información necesaria, para que usted proceda al
+            ejercicio de sus derechos de Acceso, Rectificación, Cancelación y Oposición (Derechos
+            ARCO) respecto de sus datos personales. El procedimiento que se ha implementado para
+            el ejercicio de dichos derechos, inicia con la presentación de la solicitud respectiva,
+            conforme a la ley en cuestión. Estando a disposición de usted el correo electrónico:
+            avisodeprivacidad@bwigo.com.mx
+        </p>
+        <h3>
+            <b>
+                5. Procedimiento para que el titular (cliente), en su caso, revoque su
+                consentimiento para el tratamiento de sus datos personales.
+             </b>
+        </h3>
+        <p>
+            En cualquier momento, usted puede revocar el consentimiento que, en su caso, haya
+            otorgado al “Responsable” para el tratamiento de sus datos personales, mediante solicitud
+            por escrito que contenga la siguiente información:
+        </p>
+        <p>
+        <ul>
+            <li>
+                <b>1.</b> El nombre completo del titular de los datos personales, domicilio y cuenta de
+                correo electrónico, para poder comunicarle la respuesta a su solicitud.
+            </li>
+            <li>
+                <b>2.</b> Los documentos que acrediten la identidad y en su caso la representación legal
+                del titular de los datos personales.
+            </li>
+            <li>
+                <b>3.</b> La descripción clara y precisa de los datos personales respecto de los que se
+                busca ejercer alguno de los derechos antes mencionados.
+            </li>
+            <li>
+                <b>4.</b> Cualquier otro elemento o documento que facilite la localización de los datos
+                personales.
+            </li>
+            <li>
+                <b>5.</b> En el caso de solicitudes de rectificación de datos personales, el titular, deberá
+                indicar, las modificaciones a realizarse y aportar la documentación que sustente su
+                petición.
+            </li>
+        </ul>
+        </p>
+        <p>
+            Todo en conformidad con los artículos 28 y 29 de la Ley Federal de Protección de Datos
+            Personales en Posesión de los Particulares.
+            Sin embargo, es importante que tenga en cuenta que no en todos los casos se podrá
+            atender su solicitud o concluir el uso de forma inmediata, ya que es posible que por
+            alguna obligación legal se requiera seguir tratando sus datos personales. Asimismo, usted
+            deberá considerar que para ciertos fines, la revocación de su consentimiento implicará
+            que no se le pueda seguir prestando el servicio que solicitó, o la conclusión de su relación
+            con el “Responsable”.
+        </p>
+        <h3>
+            <b>
+                6. Transferencias de datos personales dentro de México.
+             </b>
+        </h3>
+        <p>
+            Sus datos personales pueden ser transferidos y tratados dentro del país. En este caso, se
+            compartirían sus datos personales, con la o las sociedades controladoras, subsidiarias o
+            afiliadas bajo el control común del responsable, o a una sociedad matriz o a cualquier
+            sociedad del mismo grupo del responsable que opere bajo los mismos procesos y
+            políticas internas. Por lo anterior, es importante que usted esté enterado de que sus datos
+            se encuentran protegidos en virtud de que dichas sociedades, de ser necesario que se
+            remitan sus datos, operarán bajo la misma Política de Protección de Datos Personales y
+            cuentan además con una Política de Protección de Datos y Privacidad.
+            El “Responsable” se compromete a no transferir sus datos personales a otros terceros,
+            salvo a las autoridades tributarias, judiciales, federales o locales, previa notificación de los
+            mismos. Igualmente podrá llevar a cabo transferencia de sus datos en los supuestos
+            previstos en el artículo 37 de la (LFPDPPP).
+        </p>
+        <h3>
+            <b>
+                7. Medidas de seguridad implementadas.
+             </b>
+        </h3>
+        <p>
+            Para la protección de sus datos personales hemos instrumentado medidas de seguridad
+            de carácter administrativo, físico y técnico con el objeto de evitar pérdidas, mal uso o
+            alteración de su información.
+        </p>
+        <h3>
+            <b>
+                8. Modificaciones al Aviso de Privacidad.
+             </b>
+        </h3>
+        <p>
+            El presente Aviso de Privacidad puede sufrir modificaciones, cambios o actualizaciones
+            derivadas de nuevos requerimientos legales, de las propias necesidades del
+            “Responsable” por los servicios que se ofrecen, de las prácticas de privacidad o por otras
+            causas, por lo que el “Responsable” se reserva el derecho de efectuar en cualquier
+            momento las modificaciones o actualizaciones que sean necesarias al presente Aviso de
+            Privacidad.
+            El “Responsable” pondrá a disposición del cliente, la versión actualizada del Aviso de
+            Privacidad, en la página de internet que a continuación se indica: <b>www.bwigo.com.mx</b>.
+        </p>
+        <h3>
+            <b>
+                9. Derecho de promover los procedimientos de protección de derechos y de
+                verificación que sustancia el Instituto.
+             </b>
+        </h3>
+        <p>
+            Cualquier queja o información adicional respecto al tratamiento de sus datos personales o
+            duda en relación con la Ley Federal de Protección de Datos Personales en Posesión de
+            los Particulares o de su Reglamento, podrá dirigirla al Instituto Federal de Acceso a la
+            Información y Protección de Datos (IFAI).
+        </p>
+        ]]>
+    </string>
+    <string name="title_activity_maps">Map</string>
+    <string name="facebook_app_id">2372399699647584</string>
+    <string name="default_notification_channel_id">Default</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAfz_Ly38DSHCXwPpuDi_3Gscv2wyh-BLo</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#d81b60</color>
+
+    <color name="colorFacebookPrimary">#0088ff</color>
+    <color name="colorFacebookPrimaryDark">#0e4091</color>
+    <color name="colorFacebookAccent">#06ff1f</color>
+
+    <color name="colorBlueFacebook">#4267b2</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <!-- BWIGO colors -->
+    <color name="colorBwigoPrimary">#f5a700</color>
+    <color name="colorBwigoPrimaryDark">#bd7800</color>
+    <color name="colorBwigoPrimaryLight">#ffd849</color>
+    <color name="colorBwigoAccent">#4484CC</color>
+    <color name="colorBwigoSecondaryDark">#00589b</color>
+    <color name="colorBwigoSecondaryLight">#7bb3ff</color>
+    <color name="colorBwigoComplementary">#D9D9D9</color>
+    <color name="colorBwigoComplementaryDark">#a8a8a8</color>
+    <color name="colorBwigoComplementaryLight">#f8f8f8</color>
+
+    <color name="colorTransparentWhite">#cccccc</color>
+
+
+
+
+
+
+</resources>

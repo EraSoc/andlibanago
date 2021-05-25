@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "547669374577",
+    "firebase_url": "https://pushnotifications-dfaa7.firebaseio.com",
+    "project_id": "pushnotifications-dfaa7",
+    "storage_bucket": "pushnotifications-dfaa7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547669374577:android:d1640648da7f73f6408dd0",
+        "android_client_info": {
+          "package_name": "com.link2loyalty.bwigo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547669374577-4jpqkvm2lm7b70kfkivqeke0fstcssdb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.link2loyalty.bwigo",
+            "certificate_hash": "bf66121db740d2c36c60a3331147027157f310d5"
+          }
+        },
+        {
+          "client_id": "547669374577-j2fg59e4393u5ev645ehtvotovng8dmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzgckGmY9GU8yjhjdwAMMzguH9UZPNu6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547669374577-j2fg59e4393u5ev645ehtvotovng8dmf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "547669374577-oekf53l2j23c2gj7hgqd299374ls92gr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.link2loyalty.PushNotificationsFirebase"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547669374577:android:c6e21f18d560aace408dd0",
+        "android_client_info": {
+          "package_name": "com.link2loyalty.pushnotificationfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547669374577-kqcr6o0u3g2h4o60ivntqlo7c87aheve.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.link2loyalty.pushnotificationfirebase",
+            "certificate_hash": "bf66121db740d2c36c60a3331147027157f310d5"
+          }
+        },
+        {
+          "client_id": "547669374577-j2fg59e4393u5ev645ehtvotovng8dmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzgckGmY9GU8yjhjdwAMMzguH9UZPNu6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547669374577-j2fg59e4393u5ev645ehtvotovng8dmf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "547669374577-oekf53l2j23c2gj7hgqd299374ls92gr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.link2loyalty.PushNotificationsFirebase"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

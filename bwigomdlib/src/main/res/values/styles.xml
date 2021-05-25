@@ -1,0 +1,86 @@
+<resources>
+
+    <!-- Base application theme (BWIGO) -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorBwigoPrimary</item>
+        <item name="colorPrimaryDark">@color/colorBwigoPrimaryDark</item>
+        <item name="colorAccent">@color/colorBwigoAccent</item>
+        <!--item name="buttonStyle">@style/AppTheme.Button</item-->
+        <item name="android:fontFamily">@font/open_sans</item>
+    </style>
+    <!-- Buttons of Bwigo theme -->
+    <style name="AppTheme.Button.Borderless" parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:textColor">@color/colorBwigoPrimary</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+    <style name="AppTheme.Button.Borderless.Dark" parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+    <style name="AppTheme.Button" parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:background">@color/colorBwigoPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="AppTheme.Button.Facebook" parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:background">@color/colorBlueFacebook</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- Config to drawable menu -->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--
+    Facebook theme is here!!
+    -->
+    <style name="FacebookTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorFacebookPrimary</item>
+        <item name="colorPrimaryDark">@color/colorFacebookPrimaryDark</item>
+        <item name="colorAccent">@color/colorFacebookAccent</item>
+    </style>
+
+    <style name="AppTheme.AppTheme_FullScreenDialogStyle" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+
+    <style name="FullScreenDialogStyle" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+        <!-- Set this to true if you want Full Screen without status bar -->
+        <item name="android:windowFullscreen">false</item>
+
+        <item name="android:windowIsFloating">false</item>
+
+        <!-- This is important! Don't forget to set window background -->
+        <item name="android:windowBackground">@android:color/white</item>
+
+        <!-- Additionally if you want animations when dialog opening -->
+
+    </style>
+
+</resources>

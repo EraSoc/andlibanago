@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="INICIO" />
+
+        <item
+            android:id="@+id/nav_coupons"
+            android:icon="@drawable/ic_local_play_black_24dp"
+            android:title="MIS CUPONES" />
+
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_map_black_24dp"
+            android:title="MAPA" />
+
+        <!--item
+            android:id="@+id/nav_rewards"
+            android:icon="@drawable/ic_redeem_black_24dp"
+            android:title="MIS RECOMPENSAS" /-->
+
+        <item
+            android:id="@+id/nav_art"
+            android:icon="@drawable/ic_chat_black_24dp"
+            android:title="Articulos" />
+
+        <item
+            android:id="@+id/nav_fac"
+            android:icon="@drawable/ic_question_answer_black_24dp"
+            android:title="FAQ" />
+
+    </group>
+    <!--group android:checkableBehavior="single">
+        <item android:title=""/>
+        <item
+            android:id="@+id/nav_facebook"
+            android:icon="@drawable/ic_facebook"
+            android:title="FACEBOOK" />
+        <item
+            android:id="@+id/nav_twitter"
+            android:icon="@drawable/ic_twitter"
+            android:title="TWITTER" />
+        <item
+            android:id="@+id/nav_instagram"
+            android:icon="@drawable/ic_instagram_svgrepo_com"
+            android:title="INSTAGRAM" />
+
+    </group-->
+
+    <group android:checkableBehavior="single">
+        <item android:title=""/>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Ajustes" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="" />
+        <item
+            android:id="@+id/nav_back"
+            android:icon="@drawable/ic_back_white"
+            android:title="Regresar" />
+    </group>
+
+
+</menu>

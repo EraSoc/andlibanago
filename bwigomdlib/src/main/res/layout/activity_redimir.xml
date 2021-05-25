@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RedimirActivity">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_redimir"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <!-- Info text -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:fontFamily="@font/roboto"
+                android:padding="24dp"
+                android:text="Puedes escanear el código directo en el establecimiento"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <!-- Button to scan code -->
+            <Button
+                android:id="@+id/btn_scan_code"
+                style="@style/AppTheme.Button.Borderless"
+                android:layout_width="178dp"
+                android:layout_height="85dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="32dp"
+                android:text="ESCANEA CÓDIGO"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:foregroundGravity="bottom"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <!--checkbox canje cupon-->
+            <CheckBox
+                android:id="@+id/sidescuento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Si me dieron descuento"
+                android:layout_marginBottom="15sp"
+                />
+            <!-- Info de cod alfanumerico -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:text="Ingresa el código alfanumérico"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Code -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/btn_redimir"
+                android:layout_marginBottom="16dp">
+
+                <EditText
+                    android:id="@+id/et_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Código" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Buton -->
+            <Button
+                android:id="@+id/btn_redimir"
+                style="@style/AppTheme.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:allowUndo="false"
+                android:elevation="4dp"
+                android:text="REDIMIR" />
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

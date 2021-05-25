@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "494191726353",
+    "project_id": "bwigolib",
+    "storage_bucket": "bwigolib.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494191726353:android:d32afa467c4898a6a0c6b0",
+        "android_client_info": {
+          "package_name": "com.link2loyalty.bwigomdlib"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494191726353-0csfpjucuer39cqea0flie1hhro7m1jg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.link2loyalty.bwigomdlib",
+            "certificate_hash": "c9362a4f1a59a131dc80d85f678ac8ac4130add9"
+          }
+        },
+        {
+          "client_id": "494191726353-eegejmcd8sh43n0b1fepi1r3clq6afnc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB59uZN13CP9IHUK_fVP_fZv3IofnUl_-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494191726353-eegejmcd8sh43n0b1fepi1r3clq6afnc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
